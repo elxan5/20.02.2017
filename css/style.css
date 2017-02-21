@@ -1,0 +1,84 @@
+html,body{
+	margin: 0;
+	padding:0;
+    font-family:verdana;
+}
+.wrapper{
+	width: 960px;
+	margin:0 auto;
+}
+h1{
+    padding: 0;
+    margin:0;
+}
+
+      /*row start*/
+
+.row >div{
+	height:320px;
+    width: 260px;
+	border:1px solid black;
+	float: left;
+	margin: 10px 5px;
+     position: relative;
+}
+.row> div img{
+    width: 100%;
+height:220px;
+}
+.row >div  h1{
+    text-align: center;
+        color: #13317F;
+    line-height: 1.25;
+    font-size: 22px;
+    font-weight: bold;
+}
+      /*row end*/
+
+   /*dateTime start*/
+.dateTime {
+   
+    position: absolute;
+    top:25px;
+   
+    }
+.dateTime>span{
+    color:#fff;
+}
+
+.dateTime span:first-child{
+    background:#23939d;
+    padding: 25px 25px;
+
+}
+.dateTime span:last-child{
+    background:#324661;
+    padding: 10px 24px;
+    position: absolute;
+    left:0;
+    top:44px;
+}
+
+/*dateTame end*/
+/*socialButtons start*/
+.socialButtons{
+    position: absolute;
+    bottom:0;
+    line-height: 38px;
+
+    color: #aaaaaa;
+    background: #f2f2f2;
+    font-weight: bold;
+    font-size: 12px;
+}
+.socialButtons >span{
+    width: 32%;
+
+padding: 10px 24px;
+    text-align: center;
+    border-right: 1px solid #aaa;
+}
+.socialButtons span:last-child{
+    border:none;
+}
+/*sosialButtons end*/
